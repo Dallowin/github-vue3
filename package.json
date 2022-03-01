@@ -28,8 +28,6 @@
     "start": "webpack serve"
   },
   "dependencies": {
-    "axios": "^0.26.0",
-    "vue-axios": "^3.4.1",
     "vue-router": "^4.0.12",
     "vuex": "^4.0.2"
   }
