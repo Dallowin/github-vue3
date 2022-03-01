@@ -24,7 +24,7 @@
 
 
 <script setup>
-import { onMounted, reactive, computed } from "vue"
+import { reactive, computed } from "vue"
 import ListItem from "./ListItem.vue"
 import store from "../../store"
 
@@ -53,7 +53,7 @@ function toggleDropdown() {
     data.dropdown = !data.dropdown
 }
 
-async function sortByReps(value) {
+function sortByReps(value) {
     store.commit("setSortedvalue", value)
     store.dispatch("searchByLogin", searchValue.value)
 

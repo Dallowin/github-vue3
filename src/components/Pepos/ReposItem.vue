@@ -24,5 +24,4 @@ import {defineProps} from  "vue"
 
 
 const props = defineProps(['item'])
-console.log(props.item)
 </script>

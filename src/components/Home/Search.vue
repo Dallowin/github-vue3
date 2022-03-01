@@ -12,13 +12,13 @@
 </template>
 
 <script setup>
-import { ref, reactive, provide, inject  } from "vue"
+import { re } from "vue"
 import store from "../../store"
 
 const username = ref("")
 
-async function searchByLogin() {
-    await store.dispatch("searchByLogin", username.value)
+function searchByLogin() {
+    store.dispatch("searchByLogin", username.value)
 }
 
 </script>

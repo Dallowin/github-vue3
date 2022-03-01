@@ -28,7 +28,7 @@
 </template>
 
 <script setup>
-import { defineProps, reactive, ref } from "vue"
+import { defineProps, reactive } from "vue"
 import { useRouter } from "vue-router"
 import store from "../../store"
 
