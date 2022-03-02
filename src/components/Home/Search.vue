@@ -12,7 +12,7 @@
 </template>
 
 <script setup>
-import { re } from "vue"
+import { ref } from "vue"
 import store from "../../store"
 
 const username = ref("")
